@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Animi flixe </title>
+    <style>
+        body {
+            font-family: Calibri, Helvetica, sans-serif;
+            background-size: cover;
+            /* background-repeat: no-repeat; */
+            background-image: url('anime-sunrise-background-art-wallpaper-2560x1080_14.jpg');
+        }
+
+        button {
+            background-color: #f6f9f6;
+            width: 100%;
+            color: rgb(146, 153, 248);
+            padding: 15px;
+            margin: 10px 0px;
+            border: 2px solid rgb(97, 183, 239);
+            cursor: pointer;
+        }
+
+        form {
+            /* border: 3px solid #f1f1f1;    */
+        }
+
+        input[type=text],
+        input[type=password] {
+            width: 500px;
+            margin: 8px 0;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 2px solid rgb(98, 174, 237);
+            box-sizing: border-box;
+        }
+
+        button:hover {
+            opacity: 0.7;
+        }
+
+        .cancelbtn {
+            /* width: auto; */
+            padding: 10px 18px;
+            margin: 10px 5px;
+        }
+
+
+        .container {
+            /* padding: 35px; */
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* background-color: lightblue;   */
+        }
+
+        .control-label {
+            color: white;
+        }
+
+        .d-flex {
+            display: flex;
+        }
+
+        .justify-content-center {
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <center class="control-label"><h1> Login Animi Flixe  </h1> </center>
+    <form>
+        <div class="container">
+            <div>
+                <label class="control-label">Username : </label><br />
+                <input type="text" placeholder="Enter Username" name="username" required>
+            </div>
+            <div>
+                <label class="control-label">Password : </label><br />
+                <input type="password" placeholder="Enter Password" name="password" required>
+            </div>
+            <div>
+                <input type="checkbox" checked="checked"> <label class="control-label">Remember Me</label><br />
+                <button type="submit" style="width:200px">Login</button><br />
+            </div>
+            <div>
+                <label>Forgot <a href="#"> password? </a></label>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
